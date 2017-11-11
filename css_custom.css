@@ -1,0 +1,359 @@
+.clearfix{
+	clear: both; /* az beyn bordan khasiathate float*/
+}
+
+.main_header{
+    margin-bottom: 0;
+}
+
+.main_header section{
+  
+    margin-right: 12%;
+    padding: 15px;
+}
+
+
+.main_header section .logo{
+    float: right;
+    
+}
+
+.main_header section .logo span{
+    color: #969696;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.main_header section nav ul li a.activ{
+    background: #c20001;
+    border-radius:30% 30% ;
+}
+.slider img{
+    display: block;
+    float: right;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+.wrapper .art_1{
+    display: block;
+    width: 33.33%;
+    margin: 0 auto;
+    padding: 50px;
+    
+    float: right;
+    text-align: center;
+}
+.wrapper .art_1 h1{
+    color: #000;
+}
+
+
+.art_2{
+    position: relative;
+    width: 100%;
+    
+        
+}
+
+
+
+.art_2 img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.art_2 .mtn{
+    display: block;
+    padding-top: 3%;
+    width: 33.33%;
+    margin-right: 50%;
+}
+.art_2 .mtn p{
+    color: #fff;
+    display: block ;
+    float: right;
+    text-align: justify;
+   
+}
+.art_2 .mtn h1{
+    color: red;
+   
+}
+.main_footer{
+    background-color: #f7f8fa;
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+
+}
+
+
+.main_footer .ftr1{
+    
+    background-color: #6d717a;
+    width: 100%;
+    height: 30px;
+    float: right;
+    margin-bottom: 0px;
+    
+}
+
+.main_footer .ftr1 .spn{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main_footer .ftr1 .spn span{
+    color: #fff;
+    display: block ;
+    float: right;
+    padding-right: 5%;   
+     
+}
+
+.main_footer .ftr2{
+    margin-bottom: 15px;
+    background-color: #f7f8fa;
+     width:100%;
+    height: 300px;
+    float: right;
+    display: block;
+}
+
+
+.container .ftr2_cl1{
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    padding: 50px;
+    float: right;
+}
+
+.container .ftr2_cl2{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    float: right;
+}
+
+.main_footer .ftr2 .ftr2_cl1 form{
+    width: 100%;
+}
+
+.input_footer{
+  font-family: IRANYekan;
+  font-size: 14px;
+  background-color: #fff;
+  color: #37474f;
+  line-height: normal;
+  height: 45px;
+  display: block;
+  width: 80%;
+  float: right
+}
+
+.btn_footer{
+    width: 10px%;
+    height: 45px;
+    margin-right: 3px;
+    font-family: IRANYekan;
+  font-size: 14px;
+    background-color: #2196f3;
+}
+.btn_footer:hover{
+    cursor: pointer;
+}
+.icon{
+    width: 100%;
+    margin-top: 20px;
+    float: right;
+    display: block;
+}
+.icon a{
+    float: right;
+    margin: auto 5px;
+}
+
+/************************  karbaran *******************************/
+
+
+.srch .input_auto{
+    height: 40px;
+    float: right;
+    margin: auto 4px auto 30px;
+}
+.srch , .srch2{
+    width: 100%;
+    margin: 50px auto 20px;
+    display: inline-block;
+}
+.srch h3{
+    display: inline-block;
+    float: right;
+}
+/*.karbar{
+    width: 100%;
+    margin: 20px auto 10px auto;
+}
+.karbar th{
+    text-align: right;
+    background-color: #ed1b24;
+    color: #fff;
+}*/
+.karbar_mtn{
+    margin-top: 70px;
+}
+
+
+.table_karbar .table tr{
+    text-align: right;
+}
+.table_karbar .table tr:nth-child(even){
+    background: #f7f7f9;
+}
+
+.srch2 input{
+    width:100%; 
+}
+
+/*********************************************************/
+
+.profile {
+    display: block;
+    float: right;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #f7f7f9;
+}
+
+.profile .profile_form , .login .login_form{
+    height: auto;
+    background: #fff;
+    margin: 50px auto;
+    line-height: 30px;
+}
+
+/*.profile .profile_form form{
+    margin: 10px 10px 10px 10px;    
+}*/
+
+.profile .profile_form h4{
+    float: right;
+    display: inline-block;
+    width: 125px;
+    margin-right: 55px;
+}
+.profile .profile_form img{
+    float: right;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+
+.profile .profile_form .input_auto{
+    height: 35px;
+    width: 50%;
+}
+
+.profile .profile_form .btn_red , .login .login_form .btn_red{
+   
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    width: 110px;
+    display: block;
+}
+.maharat{
+    float: right;
+}
+ /***************************************************************************/
+
+
+.login {
+    display: block;
+    float: right;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #f7f7f9;
+}
+
+/*.login .login_form{
+    height: auto;
+    background: #fff;
+    margin: 50px auto;
+    line-height: 30px;
+    
+}*/
+
+
+/*.login .login_form form{
+    margin: 10px 10px 10px 10px;    
+}*/
+#login_input{
+  height: 35px;
+    width: 35%;
+    margin-right: 40px;
+}
+
+.login .login_form a{
+    display: block;
+}
+
+.login .login_form h4{
+    float: right;
+    display: inline-block;
+    width: 125px;
+    margin-right: 55px;
+}
+
+.profile .profile_form ul li{
+    margin-top: 20px;
+}
+.profile .profile_form ul li ul li{
+    float: left;
+    line-height: 0px;
+}
+ 
+.profile .profile_form .form_label{
+    float: right;
+    display: inline-block;
+    width: 125px;
+    margin-right: 55px;
+}
+.login .login_form img{
+    float: right;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+
+.login .login_form .input_auto{
+    height: 35px;
+    width: 80%;
+    margin: 31px 40px 20px auto;
+}
+
+
+/*.login .login_form .btn_red{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    width: 110px;
+    display: block;
+}
+*/
